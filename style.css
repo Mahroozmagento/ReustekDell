@@ -1,0 +1,165 @@
+@font-face {
+    font-family: iranSans;
+    src: url("../fonts/IRANSansWeb\(FaNum\).ttf");
+}
+
+@font-face {
+    font-family: iranSansBold;
+    src: url("../fonts/IRANSansWeb\(FaNum\)_Bold.ttf");
+}
+
+body {
+    direction: lrt;
+    margin: 0;
+    padding: 0;
+    font-family: iranSans;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    background: #004B99;
+    text-align: center;
+    margin-bottom: 100px;
+    border-bottom: 9px solid #EEC800;
+}
+
+header img {
+    width: 200px;
+    margin-top: 35px;
+}
+
+.bg-yellow {
+    background: #EEC800;
+}
+
+.border {
+    margin-top: 10px;
+    height: 10px;
+}
+
+.BrandName {
+    font-family: iranSansBold;
+    text-align: center;
+}
+
+.boxSlide div {
+    text-align: center;
+    padding: 20px;
+}
+
+.boxSlide div.content {
+    background: #efefef;
+
+}
+
+.boxSlide div.content img {
+    width: 100px;
+    margin-bottom: 20px;
+
+
+}
+
+.banner {
+    float: right;
+    width: 100%;
+}
+
+.item {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.title {
+    font-family: iranSansBold;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.title.active {
+
+    background-color: #EEC800;
+}
+
+.Pricing .content {
+    padding: 20px 70px 20px 70px;
+    
+}
+
+.Pricing .bg-yellow {
+    padding-bottom: 130px;
+}
+.PriceBox .item .header {
+    background: rgb(0, 53, 75);
+    padding: 20px 70px 20px 70px;
+    text-align: center;
+}
+
+.PriceBox {
+    position: relative;
+   
+    padding: 20px;
+    top: -133px;
+
+}
+ 
+.title2 {
+    font-size: 50px;
+    font-family: iranSansBold;
+    color: yellow;
+}
+
+.PriceBox .item {
+    background: rgb(2, 86, 119);
+    color: white;
+     overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.PriceBox .item .content
+{
+    padding: 20px;
+}
+
+.bg-dark2{
+    padding-top: 30px;
+    background-color: #F3F3F7;
+}
+ 
+.boxSlide2 .content{
+    background-color: #C1C1D1;
+    padding: 10px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+   
+}
+.boxSlide2 .header{
+    background-color: rgb(2, 86, 119);
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 10px;
+    color: white;
+}
+.border-radius{
+    border-radius: 8px;
+}
+.fixBox{
+    position: relative;
+  height: 220px;
+}
+.fixBoxChilde{
+    position: absolute;
+    bottom: -50px;
+    right: 0px;   
+}
+
+footer{
+    padding: 50px 30px 50px 30px;
+}
+footer img{
+    width: 100%;
+}
